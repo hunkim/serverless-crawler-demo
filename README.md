@@ -408,7 +408,7 @@ service: ServerlessHandsOnPart2
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   memorySize: 256
   timeout: 30
   stage:  ${file(./config.yml):STAGE}
